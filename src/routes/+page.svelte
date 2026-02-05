@@ -1,18 +1,20 @@
 <script lang="ts">
     import type { Article } from "$lib/types";
-    import {articlesCache} from "$lib/data/articlesCache";
+    import { bloggState} from "$lib/state/BloggState.svelte";
 
     let articles : Article[] = $state([]);
-    let isLoading = $state(true);
 
     $effect(() => {
-        articles = articlesCache;
-        isLoading = false;
-    })
+        bloggState.loadArticles();
+    });
+
+    $effect(() => {
+        articles = bloggState.articles;
+    });
 </script>
 
 <main class="blog-index">
-    {#if isLoading}
+    {#if bloggState.isLoading}
         <div class="loading">Laster artikler...</div>
     {/if}
 
