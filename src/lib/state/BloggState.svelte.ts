@@ -35,7 +35,12 @@ export class BloggState {
             await this.loadArticles();
         }
 
-        return this.articles.find(article => article.id === id);
+        let article = this.articles.find(article => article.id === id);
+        if (article) {
+            return article;
+        } else {
+            return null;
+        }
     }
 }
 
