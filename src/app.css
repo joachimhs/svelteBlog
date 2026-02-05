@@ -1,0 +1,12 @@
+a {
+    text-decoration: none;
+    color: inherit; /* Optional: to keep the link color consistent with surrounding text */
+}
+
+a:hover {
+    color: #007bff; /* Optional: change color on hover */
+}
+
+a:visited {
+    color: inherit; /* Optional: change color for visited links */
+}
