@@ -1,1 +1,1 @@
-<h1>Min Blogg</h1>
+<slot></slot>
