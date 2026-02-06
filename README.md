@@ -41,6 +41,13 @@ You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
 
+# Lysbilder
+
+- [Webben](https://syntakserror.no/presentasjoner/webben_historisk_innblikk)
+- [Svelte Introduksjon](https://syntakserror.no/presentasjoner/svelte_introduction)
+- [Svelte Data](https://syntakserror.no/presentasjoner/svelte_introduction_data)
+- [Svelte Start Blogg](https://syntakserror.no/presentasjoner/svelte_start_blogg)
+
 # Steg 1 - Blogg index 
 ## etter commit 508ff6194508224425b6169df55f1b7942569ff7
 
@@ -398,9 +405,7 @@ You can preview the production build with `npm run preview`.
 </details>
 
 
-# Steg 6 - Legger til en egen app.css fil
-
-
+# Steg 5 - Legger til en egen app.css fil
 
 <details>
   <summary>/src/app.css</summary>
